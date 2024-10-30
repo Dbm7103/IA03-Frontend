@@ -25,7 +25,7 @@ const Register: React.FC = () => {
 
     const closePopup = () => {
         setShowPopup(false);
-        if (message === 'Registration successful') {
+        if (message === 'User registered successfully') {
             navigate('/login');
         }
     };
